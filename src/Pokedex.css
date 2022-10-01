@@ -1,0 +1,19 @@
+.Pokedex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.Pokedex-title {
+    margin: 1em; 
+    color: gray;
+}
+
+.Pokedex-board {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
